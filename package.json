@@ -1,7 +1,8 @@
 {
   "name": "rabbit-response",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "fast, easy, clean framework for micro services using rabbitmq",
+  "keywords": ["rabbitmq","micro services","async await"],
   "main": "index.js",
   "scripts": {
     "test": "node ./src/test.js"
