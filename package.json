@@ -1,0 +1,23 @@
+{
+  "name": "rabbit-response",
+  "version": "1.0.0",
+  "description": "fast, easy, clean framework for micro services using rabbitmq",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./src/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rabbit-Response/rabbitresponse-js.git"
+  },
+  "author": "Jonathan Amit-Kohn <rabbitresponsejs@gmail.com> (https://amitkohn.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Rabbit-Response/rabbitresponse-js/issues"
+  },
+  "homepage": "https://github.com/Rabbit-Response/rabbitresponse-js#readme",
+  "dependencies": {
+    "amqplib": "^0.6.0",
+    "uuid": "^8.3.2"
+  }
+}
