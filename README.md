@@ -1,4 +1,4 @@
-# rabbit-response
+# Rabbit Response
 Rabbit Response is a framework designed to help you build advanced micro-service systems using    
 **Quick, Easy to read, Linear JavaScript**.
 
