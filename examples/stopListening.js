@@ -9,7 +9,7 @@ setInterval(()=>{
 ,500);
 
 // 1. Store the consumerObject returned from the consumeQueue function
-const consumerObject = rr.consumeQueue(queue,(req,res)=>{
+const consumerObject = rr.consumeQueue(queue,(req)=>{
     console.log(req.content);
 });
 
