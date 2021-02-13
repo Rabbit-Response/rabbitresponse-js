@@ -1,7 +1,7 @@
 const rabbitResponse = require('../');
 const rr = rabbitResponse();
 
-const queue = 'terminationExample';
+const queue = 'unsubscribeExample';
 
 setInterval(()=>{
         rr.post(queue,"still listening");
